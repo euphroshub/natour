@@ -24,16 +24,17 @@ body {
 }
 
 .header {
-    height: 95vh; /*viewport height*/
-    background-image: linear-gradient(
-        to right bottom,
-        rgba(126, 213, 111, 0.8),
-        rgba(40, 180, 131, 0.8)), 
-    url(../img/hero.jpg);
+    height: 95vh;
+    /*viewport height*/
+    background-image: linear-gradient(to right bottom,
+            rgba(126, 213, 111, 0.8),
+            rgba(40, 180, 131, 0.8)),
+        url(../img/hero.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); /*adjusting the gradient form*/
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    /*adjusting the gradient form*/
 }
 
 .logo-box {
@@ -51,7 +52,8 @@ body {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%); /*centering the title box*/
+    transform: translate(-50%, -50%);
+    /*centering the title box*/
     text-align: center;
 }
 
@@ -71,7 +73,7 @@ body {
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
-    
+
     /*
     animation-delay: 3s;
     animation-iteration-count:
@@ -149,12 +151,12 @@ body {
 
 .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
 }
 
 .btn:active {
     transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 }
 
 .btn-white {
@@ -163,7 +165,8 @@ body {
 }
 
 .btn::after {
-    content: ""; /*need to specify content even if empty or it does not work*/
+    content: "";
+    /*need to specify content even if empty or it does not work*/
     display: inline-block;
     height: 100%;
     width: 100%;
