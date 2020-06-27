@@ -1,3 +1,5 @@
+// Importing Files
+
 @import "abstract/functions";
 @import "abstract/mixins";
 @import "abstract/variables";
@@ -10,6 +12,7 @@
 
 @import "components/button";
 
+@import "layout/grid";
 @import "layout/header";
 
 @import "pages/home";
